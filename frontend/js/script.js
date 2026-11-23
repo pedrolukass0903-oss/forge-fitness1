@@ -1,6 +1,6 @@
 // URL pública da aplicação backend publicada na Vercel.
 // Durante desenvolvimento local, use http://localhost:3000.
-const API_BASE_URL = "https://SUA-URL-BACKEND.vercel.app";
+const API_BASE_URL = "https://forge-fitness1-backend.vercel.app";
 
 const escapeHTML = (value = "") => String(value).replace(/[&<>"']/g, char => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
