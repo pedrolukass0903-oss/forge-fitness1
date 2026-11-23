@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FORGE Fitness: musculação, treinamento funcional e profissionais preparados para acompanhar sua evolução.">
+  <meta name="theme-color" content="#101010">
+  <title>FORGE Fitness | Sua força começa aqui</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Navegação principal">
+      <a class="brand" href="#inicio">FORGE<span> FITNESS</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">☰</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#inicio">Início</a></li><li><a href="#sobre">Sobre</a></li>
+        <li><a href="#modalidades">Modalidades</a></li><li><a href="#equipe">Equipe</a></li>
+        <li><a href="#horarios">Horários</a></li><li><a href="#unidades">Unidades</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content wrap">
+        <p class="eyebrow">SUPERE SEUS LIMITES</p>
+        <h1>SUA FORÇA<br>COMEÇA AQUI.</h1>
+        <p>Treine com propósito, evolua todos os dias e alcance sua melhor versão.</p>
+        <a class="button" href="#modalidades">Conheça nossos treinos</a>
+      </div>
+    </section>
+    <section class="section wrap" id="sobre">
+      <p class="eyebrow">NOSSA ESSÊNCIA</p><h2>Mais que uma academia. Um espaço para evoluir.</h2>
+      <p class="lead">A FORGE Fitness acredita que disciplina, orientação e constância ajudam cada pessoa a construir uma rotina mais ativa e saudável. Encontre uma modalidade e comece no seu ritmo.</p>
+    </section>
+    <section class="section section-alt" id="modalidades">
+      <div class="wrap"><p class="eyebrow">ENCONTRE SEU TREINO</p><h2>Nossas modalidades</h2>
+        <div id="trainings-container" class="cards" aria-live="polite"><p>Carregando modalidades...</p></div>
+      </div>
+    </section>
+    <section class="section wrap" id="equipe">
+      <p class="eyebrow">PROFISSIONAIS</p><h2>Conheça nossa equipe</h2>
+      <div id="coaches-container" class="cards" aria-live="polite"><p>Carregando professores...</p></div>
+    </section>
+    <section class="section section-alt" id="horarios">
+      <div class="wrap"><p class="eyebrow">PLANEJE SUA ROTINA</p><h2>Horários de funcionamento</h2>
+        <div id="schedules-container" class="schedule" aria-live="polite"><p>Carregando horários...</p></div>
+      </div>
+    </section>
+    <section class="section wrap" id="unidades">
+      <p class="eyebrow">VENHA NOS VISITAR</p><h2>Nossas unidades</h2>
+      <div id="locations-container" class="cards" aria-live="polite"><p>Carregando unidades...</p></div>
+    </section>
+    <section class="cta">
+      <div class="wrap"><p class="eyebrow">SEU PRÓXIMO PASSO COMEÇA AGORA</p><h2>Construa sua melhor versão.</h2><a class="button" href="#unidades">Encontre uma unidade</a></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><a class="brand" href="#inicio">FORGE<span> FITNESS</span></a><p>© <span id="year"></span> FORGE Fitness. Projeto acadêmico.</p></div></footer>
+</body>
+</html>
